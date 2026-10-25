@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (large — supply your own copy of enron_spam_data.csv)
+*.csv
+data/
+datasets/
+
+# Model checkpoints & weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & outputs
+*.log
+runs/
+outputs/
